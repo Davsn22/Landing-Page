@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Contatos</title>
+  <link rel="icon" href="icon.png">
+  <style>
+    body {
+      background: #00c8ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .profile {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ddd;
+      background: #fff;
+    }
+    .profile h1 {
+      margin: 15px 0 5px 0;
+      font-size: 2em;
+      color: #333;
+    }
+    .profile p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .links {
+      width: 100%;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-bottom: 40px;
+    }
+    .link-item {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 12px 18px;
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+      transition: box-shadow 0.2s;
+      position: relative;
+    }
+    .link-item:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+      background: #f0f0f0;
+    }
+    .link-item img {
+      width: 32px;
+      height: 32px;
+      margin-right: 14px;
+      border-radius: 8px;
+      object-fit: cover;
+      background: #eee;
+    }
+    @media (max-width: 400px) {
+      .links {
+        max-width: 95vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <img src="Perfil.png" alt="Ícone do perfil">
+    <h1>Dávison Thiago Valadares Silva</h1>
+    <p>Se quiser me conhecer melhor, Aqui estão todos as minhas referências</p>
+  </div>
+  <div class="links">
+    <a class="link-item" href="https://wa.me/5598984812240" target="_blank">
+      <img src="WhatsApp.png" alt="Davison Valadares">
+      <span>Meu Whatsapp</span>
+    </a>
+    <a class="link-item" href="https://www.instagram.com/davissonvaladares" target="_blank">
+      <img src="instagram.png" alt="Davison Valadares">
+      <span>Instagram</span>
+    </a>
+    <a class="link-item" href="https://www.linkedin.com/in/davison-valadares-9b31232b8/" target="_blank">
+      <img src="LinkedIn_logo_initials.png" alt="Ícone">
+      <span>Linkedin</span>
+    </a>
+    <a class="link-item" href="https://drive.google.com/file/d/1ESLe7X0Or-3cziSFEqjZgkgPWHiReILH/view?usp=sharing" target="_blank">
+      <img src="icon.png" alt="Currículo">
+      <span>Meu Currículo</span>  
+    </a>
+  </div>
+</body>
+</html>
